@@ -26,3 +26,15 @@ var isFailed = false;
 console.log("isFailed : ", isFailed);
 var isFailedTypeOf = typeof isFailed;
 console.log("isFailed type of is: ", isFailedTypeOf);
+
+console.log("============= Special Datatype: undefined ===============");
+var country;
+console.log("Country value is: ", country);
+var countryTypeOf = typeof country;
+console.log("Type of country is: ", countryTypeOf);
+
+console.log("============= Special Datatype: null ===============");
+var village = null;
+console.log("Value of village is: ", village);
+var villageTypeOf = typeof village;
+console.log("Type of village:", villageTypeOf);
