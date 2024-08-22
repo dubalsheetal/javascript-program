@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Document</title>
+</head>
+<body>
+    <h2>Web local Storage</h2>
+</body>
+<script>
+    console.log("Local Storage");
+    window.localStorage.setItem("Name","Shital Sharad Dubal");
+    window.localStorage.setItem("City","Pune");
+    window.localStorage.setItem("Pincode",412108);
+    window.localStorage.setItem("District","Pune");
+    console.log(window.localStorage.getItem("Name"));
+    console.log(window.localStorage.getItem("City"));
+    console.log(window.localStorage.getItem("Pincode"));
+    console.log(window.localStorage.getItem("District"));
+    console.log(window.localStorage.removeItem("City"));
+    
+</script>
+</html>
